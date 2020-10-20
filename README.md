@@ -48,20 +48,20 @@ Route
 Validasi terhadap nama, rating, from dan recipe_created! 
 
 ### Nama
-- Tidak boleh kosong
+- Tidak boleh kosong  
 - Length lebih dari nama > 5 
 - Harus memiliki kata 'ice', 'bobba' atau 'hot', 'bobba' 
 
 ### Rating
-Tidak boleh kosong
+Tidak boleh kosong  
 Rating harus angka bulat dari 1 s/d 5 
 
 ### From
-Tidak boleh kosong
+Tidak boleh kosong 
 Hanya boleh character dan number (no Symbol!)
 
 ### Recipe_crated
-Tidak boleh kosong
+Tidak boleh kosong 
 Date sudah pasti sebelum hari ini 
 
 ![errors](./errors.png)
