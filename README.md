@@ -34,13 +34,13 @@ Route
 
 # Helper 
 1. Buat helper memformat date menjadi DD Month YYYY, namun Month dalam bahasa indonesia
-2. Buat helper rating bentuk angka menjadi emoji star dan apply view sehingga terlihat seperti ini 
 ```js
 [
     'Januari', 'Februari', 'Maret', 'April' , 'Mei', 'Juni', 
     'July', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
 ]
 ```
+2. Buat helper rating bentuk angka menjadi symbol star dan apply view sehingga terlihat seperti :arrow_down:
 ![home](./home.png)
 
 
