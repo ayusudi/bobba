@@ -30,7 +30,7 @@ Route
 | POST   | /add        | Add new drink & redirect to /                     |
 | POST   | /delete/:id | Delete drink by id with rating 1 & redirect to /  |
 
----
+</br></br></br>
 
 # Helper 
 1. Buat helper memformat date menjadi DD Month YYYY, namun Month dalam bahasa indonesia
