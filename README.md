@@ -4,7 +4,7 @@ Table Drinks
 
 | Column Name     | Data Type | Modifier           |
 |-----------------|-----------|--------------------|
-| name            | VARCHAR   | UNiQUE, NOT NULL   |
+| name            | VARCHAR   | UNIQUE, NOT NULL   |
 | rating          | iNTEGER   |                    |
 | from            | VARCHAR   |                    |
 | recipe_created  | DATE      |                    |
