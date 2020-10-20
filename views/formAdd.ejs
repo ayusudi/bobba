@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input {
+        margin-bottom: 15px;
+    }
+    body {
+        padding-left: 15px;
+    }
+    .errors p {
+        padding: 0;
+        margin: 0;
+        color: rgb(0, 0, 0);
+    }
+    .errors {
+        width: 270px;
+        background-color: rgb(245, 149, 149);
+        padding: 10px;
+    }
+</style>
+<body>
+    <h1>Add Bobba!</h1>
+
+ 
+    <form action="/add" method="post">
+        Name <input type="text" name="name" placeholder="Ice Bobba"><br>
+        Rating <input type="number" name="rating" placeholder="5"><br>
+        From <input type="text" name="from" placeholder="Tokyo"><br>
+        Date of Created <input type="date" name="recipe_created"><br>
+        <input type="submit" value="Submit">
+        <%if (errors) {%>
+            <div class="errors">
+                <% errors.forEach(el => {%>
+                    <p><%= el %></p>
+                <%})%>
+            </div> <br>
+        <%}%>
+    </form>
+</body>
+</html>
