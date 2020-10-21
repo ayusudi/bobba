@@ -66,3 +66,8 @@ Tidak boleh kosong
 Date sudah pasti sebelum hari ini 
 
 ![errors](./errors.png)
+
+
+# Hooks 
+- Hooks saat create input name dari user bisa saja tidak berformat EYD re-format input user menjadi EYD sebelum masuk ke table drinks 
+- Hooks sebelum delete, yang bisa di delete adalah rating 1 lain dari berikan error
