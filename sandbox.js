@@ -4,7 +4,6 @@ if (true) {
     console.log("Hello FITUR CREATE DRINK")
 }
 
-
 let array= [
     'bobba', 'ice', 'tea'
 ]
