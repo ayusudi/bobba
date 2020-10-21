@@ -1,2 +1,8 @@
-console.log("Hello")
-console.log("Hello 1")
+
+
+let array= [
+    'bobba', 'ice', 'tea'
+]
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+}
