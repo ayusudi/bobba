@@ -1,4 +1,4 @@
-# Jualan Bobba Bintang 5
+# Jualan Boba Bintang 5
 
 Table Drinks
 
@@ -12,13 +12,13 @@ Table Drinks
 
 Data
 
-| id | name                          | rating | from   | recipe_created |
-|----|-------------------------------|--------|--------|----------------|
-| 1  | Ice Bobba Tea                 | 3      | Tokyo  | 2015-10-22     |
-| 2  | Hot Bobba Tea                 | 1      | Taiwan | 2017-12-12     |
-| 3  | Ice Marsmallow Milk Tea Bobba | 5      | China  | 2020-01-11     |
-| 4  | Ice Milk Brown Sugar Bobba    | 5      | Taiwan | 2020-08-17     |
-| 5  | Hot Sweet Milk Bobba          | 4      | Tokyo  | 2018-08-01     |
+| id | name                         | rating | from   | recipe_created |
+|----|------------------------------|--------|--------|----------------|
+| 1  | Ice Boba Tea                 | 3      | Tokyo  | 2015-10-22     |
+| 2  | Hot Boba Tea                 | 1      | Taiwan | 2017-12-12     |
+| 3  | Ice Marsmallow Milk Tea Boba | 5      | China  | 2020-01-11     |
+| 4  | Ice Milk Brown Sugar Boba    | 5      | Taiwan | 2020-08-17     |
+| 5  | Hot Sweet Milk Boba          | 4      | Tokyo  | 2018-08-01     |
 
 
 Route
@@ -51,7 +51,20 @@ Validasi terhadap nama, rating, from dan recipe_created!
 ### Nama
 - Tidak boleh kosong  
 - Length lebih dari nama > 5 
-- Harus memiliki kata 'ice', 'bobba' atau 'hot', 'bobba' 
+- Harus memiliki kata 'ice', 'boba' atau 'hot', 'boba' 
+```js
+let validate = false
+let name = '....' 
+if (name.toLowerCase().include('ice') && name.toLowerCase().include('boba')) {
+  validate = true
+}
+if (name.toLowerCase().include('hot') && name.toLowerCase().include('boba')) {
+  validate = true
+}
+if (!validate){
+  throw ('Name must include hot/ice and boba!')
+}
+```
 
 ### Rating
 Tidak boleh kosong  
