@@ -67,16 +67,16 @@ if (!validate){
 ```
 
 ### Rating
-Tidak boleh kosong  
-Rating harus angka bulat dari 1 s/d 5 
+- Tidak boleh kosong  
+- Rating harus angka bulat dari 1 s/d 5 
 
 ### From
-Tidak boleh kosong 
-Hanya boleh character dan number (no Symbol!)
+- Tidak boleh kosong 
+- Hanya boleh character dan number (no Symbol!)
 
 ### Recipe_crated
-Tidak boleh kosong 
-Date sudah pasti sebelum hari ini 
+- Tidak boleh kosong 
+- Date sudah pasti sebelum hari ini 
 
 ![errors](./errors.png)
 
