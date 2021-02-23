@@ -55,10 +55,10 @@ Validasi terhadap nama, rating, from dan recipe_created!
 ```js
 let validate = false
 let name = '....' 
-if (name.toLowerCase().include('ice') && name.toLowerCase().include('boba')) {
+if (name.toLowerCase().includes('ice') && name.toLowerCase().includes('boba')) {
   validate = true
 }
-if (name.toLowerCase().include('hot') && name.toLowerCase().include('boba')) {
+if (name.toLowerCase().includes('hot') && name.toLowerCase().includes('boba')) {
   validate = true
 }
 if (!validate){
